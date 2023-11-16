@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mejoramiento de js</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+<body>
+    <div class="container">
+        <section class="calculadora">
+            <div class="calculator-container">
+                <div class="displayNumber" id="displayNumber">
+                    
+                </div>
+                <div class="tecladoNumber">
+                    <div class="numeros">
+                        <p data-numero="2" class="funciones herramientas" data-funtion="limpiar">
+                            <i class="fa-solid fa-c"></i>
+                        </p>
+                        <p data-numero="" class="funciones herramientas" data-funtion="simbolo">
+                            <i class="fa-solid fa-plus-minus"></i>
+                        </p>
+                        <p data-numero="" class="funciones herramientas" data-funtion="porcentaje">
+                            <i class="fa-solid fa-percent"></i>
+                        </p>
+                        <span data-numero="1" class="numb" unselectable="on" onselectstart="return false;" onmousedown="return false;">1</span>
+                        <span data-numero="2" class="numb">2</span>
+                        <span data-numero="3" class="numb">3</span>
+                        <span data-numero="4" class="numb">4</span>
+                        <span data-numero="5" class="numb">5</span>
+                        <span data-numero="6" class="numb">6</span>
+                        <span data-numero="7" class="numb">7</span>
+                        <span data-numero="8" class="numb">8</span>
+                        <span data-numero="9" class="numb">9</span>
+                        <p class="item0 numb" data-numero="0" >0</p>
+                        <p class="intemSpot numb" data-numero="." >.</p>
+                    </div>
+                    <div class="operaciones">
+                        <span class="funciones" data-funtion="">
+                            <i class="fa-solid fa-divide funciones" data-funtion="dividir"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-xmark funciones" data-funtion="multiplicar"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-minus funciones" data-funtion="restar"></i>
+                        </span>
+                        <span class="funciones" data-funtion="sumar">
+                            <i class="fa-solid fa-plus"></i>
+                        </span>
+                        <span class="funciones" data-funtion="igual">
+                            <i class="fa-solid fa-equals"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
